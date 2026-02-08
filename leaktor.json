@@ -1,11 +1,11 @@
 {
-    "version": "0.3.0",
+    "version": "0.4.0",
     "description": "Secrets scanner with pattern matching, entropy analysis, and live validation",
     "homepage": "https://github.com/reschjonas/leaktor",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/reschjonas/leaktor/releases/download/v0.3.0/leaktor-windows-amd64.exe.zip",
+            "url": "https://github.com/reschjonas/leaktor/releases/download/v0.4.0/leaktor-windows-amd64.exe.zip",
             "extract_dir": "",
             "bin": [
                 [
@@ -13,7 +13,7 @@
                     "leaktor"
                 ]
             ],
-            "hash": "cd0fd2912475f07a96f3db0bb356fe1c7131e1532e76ed8df99f8c05d1800a60"
+            "hash": "ef5de7acb4b4ca2c34da37d44aabd5bd23bc8eb1eca09830489ebde8495c1c23"
         }
     },
     "checkver": {
