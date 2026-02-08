@@ -5,14 +5,15 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/reschjonas/leaktor/releases/download/v0.3.0/leaktor-windows-amd64.exe",
+            "url": "https://github.com/reschjonas/leaktor/releases/download/v0.3.0/leaktor-windows-amd64.exe.zip",
+            "extract_dir": "",
             "bin": [
                 [
                     "leaktor-windows-amd64.exe",
                     "leaktor"
                 ]
             ],
-            "hash": "96338cde39846bea436582b0f104f055cec19095c25bbcaf30ae05fada7c316d"
+            "hash": "cd0fd2912475f07a96f3db0bb356fe1c7131e1532e76ed8df99f8c05d1800a60"
         }
     },
     "checkver": {
@@ -21,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/reschjonas/leaktor/releases/download/v$version/leaktor-windows-amd64.exe"
+                "url": "https://github.com/reschjonas/leaktor/releases/download/v$version/leaktor-windows-amd64.exe.zip"
             }
         }
     }
